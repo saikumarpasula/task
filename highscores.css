@@ -1,0 +1,27 @@
+#high-score-ul-list {
+  /* list-style: none; */
+  padding: 0;
+  margin-bottom: 4rem;
+  /* border: 2px solid red; */
+}
+.player {
+  font-size: 2.2rem;
+  margin-bottom: 0.5rem;
+  /* border: 2px solid red; */
+}
+.player:hover {
+  transform: scale(1.029);
+  cursor: pointer;
+}
+.each-player {
+  /* border: 0.1rem solid black;
+  background-color: white; */
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+  width: 55rem;
+}
+#table-info {
+  font-family: monospace;
+  font-size: 2.4rem;
+}

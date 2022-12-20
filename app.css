@@ -1,0 +1,131 @@
+@import url("https://fonts.googleapis.com/css2?family=Baloo+Bhai+2&display=swap");
+:root {
+  background-color: rgb(200, 247, 220);
+  font-size: 62.5%;
+}
+* {
+  box-sizing: border-box;
+  font-family: "Arial Narrow Bold", sans-serif;
+  margin: 0;
+  padding: 0;
+  color: #012346;
+}
+h1,
+h2,
+h3,
+h4 {
+  margin-bottom: 1rem;
+}
+h1 {
+  font-size: 5.7rem;
+  color: #012346;
+  margin-bottom: 5rem;
+}
+h1 > span {
+  font-size: 2rem;
+  font-weight: 400;
+}
+
+h2 {
+  font-size: 3.3rem;
+  margin-bottom: 4rem;
+  font-weight: 600;
+}
+h3 {
+  font-size: 2.8rem;
+  font-weight: 500;
+}
+/* Utilities */
+
+.container {
+  width: 100vw;
+  height: 95vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 80rem;
+  margin: 0 auto;
+  padding: 2rem;
+  /* border: 2px solid black; */
+}
+.container > * {
+  width: 100%;
+}
+
+.flex-center {
+  justify-content: center;
+  align-items: center;
+}
+.flex-column {
+  display: flex;
+  flex-direction: column;
+  /* border: 2px solid gray; */
+}
+.game-justify-center {
+  justify-content: center;
+  /* align-items: center; */
+}
+
+.text-center {
+  text-align: center;
+}
+.hidden {
+  display: none;
+}
+/* Anchor buttons */
+.button {
+  font-size: 1.8rem;
+  padding: 1rem 0;
+  width: 20rem;
+  text-align: center;
+  border: 0.2rem solid rgba(1, 35, 70, 0.66);
+  margin-bottom: 1rem;
+  text-decoration: none;
+  color: #012346;
+  background-color: white;
+}
+
+.button:hover {
+  cursor: pointer;
+  box-shadow: 0 0.4rem 1.4rem 0 rgba(5, 56, 107, 0.7);
+  transform: translateY(-0.1rem);
+  transition: transform 150ms;
+}
+
+.button[disabled]:hover {
+  cursor: not-allowed;
+  box-shadow: none;
+  transform: none;
+}
+
+/* end */
+
+form {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+input {
+  margin-bottom: 1rem;
+  padding: 1.5rem;
+  border: none;
+  width: 20rem;
+  font-size: 1.8rem;
+  box-shadow: 0 0rem 1rem 0 rgba(5, 56, 107, 0.5);
+}
+
+input::placeholder {
+  color: #aaa;
+}
+#user-message {
+  font-size: 2rem;
+  text-align: center;
+}
+/* Footer */
+.footer {
+  text-align: right;
+  font-size: 1.4rem;
+  font-family: Arial, Helvetica, sans-serif;
+  padding-right: 3.6rem;
+}
